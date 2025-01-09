@@ -10,7 +10,7 @@
   in {
     packages.x86_64-linux.wgephemeralpeer = pkgs.buildGoModule {
       name = "wgephemeralpeer";
-      version = "1.0.5"; # Replace with the desired version
+      version = "1.0.5";
 
       src = ./.; 
       vendorHash = null;
